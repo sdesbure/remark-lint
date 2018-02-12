@@ -1,0 +1,11 @@
+---
+
+# For use with pre-commit.
+# See usage instructions at http://pre-commit.com
+
+-   id: remark-lint
+    name: Remark-lint
+    description: This hook runs remark lint for Markdown.
+    entry: lint-md
+    language: node
+    files: [file, markdown]
