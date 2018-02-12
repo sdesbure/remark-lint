@@ -8,4 +8,4 @@
     description: This hook runs remark lint for Markdown.
     entry: lint-md
     language: node
-    files: [file, markdown]
+    types: [file, markdown]
